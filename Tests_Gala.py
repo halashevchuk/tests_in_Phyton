@@ -19,7 +19,7 @@ driver.switch_to.window(windowsOpened[0])
 
 driver.find_element(By.ID, "username1").send_keys(email)
 driver.implicitly_wait(5)
-driver.find_element(By.ID, "password1").send_keys("1132")
+driver.find_element(By.ID, "password341").send_keys("1132")
 driver.find_element(By.CSS_SELECTOR, "input[value='admin']").click()
 driver.find_element(By.CSS_SELECTOR, "select.form-control").click()
 driver.implicitly_wait(3)
